@@ -13,6 +13,11 @@ namespace DepartmentEmployeeDAL
         {
 
         }
+        protected void OnModelCreating(ModelBuilder buiilder)
+        {
+
+        }
         public DbSet<Department> Departments { get; set; }
+        public DbSet<Employee> Employees { get; set; }
     }
 }
